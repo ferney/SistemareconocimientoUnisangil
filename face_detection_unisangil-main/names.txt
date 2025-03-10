@@ -1,0 +1,6 @@
+WILLIAM FERNEY CHAPARRO, 1101074475, Ingenieria de Sistemas
+DARIO CELI, 12345, Administracion de Empresas
+T, 4, Contaduria Publica
+CCC, 1, Administracion de Empresas
+U, 6, Administracion de Empresas
+wwwwwwwwwwwwwwwwwwww, 1111111111111111111111111, Ingenieria Ambiental
