@@ -13,7 +13,7 @@ import numpy as np #manejar arreglos multidimensionales (arrays) y realizar oper
 from time import time #Maneja tiempo y pausas en la ejecución del programa.
 
 # Define la ruta donde se almacenan las imágenes de los rostros.
-dataRuta = 'D:/xx/reconocimientofacial1/Data'
+dataRuta = './Data'
 # Lista los subdirectorios en la ruta de datos, cada uno correspondiente a un conjunto de imágenes de una persona.
 listaData = os.listdir(dataRuta)
 

@@ -13,11 +13,11 @@ from datetime import datetime
 # ==============================================
 # CONFIGURACIÓN BASE Y CONSTANTES
 # ==============================================
-ruta_base = 'D:/xx/reconocimientofacial1/Data'
+ruta_base = './Data'
 
 # Inicialización de componentes de visión por computadora
 camara = cv.VideoCapture(0)
-ruidos = cv.CascadeClassifier('D:/xx/reconocimientofacial1/Ruidos/data/haarcascades/haarcascade_frontalface_default.xml')
+ruidos = cv.CascadeClassifier('./Ruidos/data/haarcascades/haarcascade_frontalface_default.xml')
 
 # Variables globales
 id_captura = 0

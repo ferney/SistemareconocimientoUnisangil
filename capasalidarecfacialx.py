@@ -22,7 +22,7 @@ class RecognitionUI:
         
         # Iniciar cámara
         self.camara = cv.VideoCapture(0)
-        self.ruidos = cv.CascadeClassifier('D:/xx/reconocimientofacial1/Ruidos/data/haarcascades/haarcascade_frontalface_default.xml')
+        self.ruidos = cv.CascadeClassifier('./Ruidos/data/haarcascades/haarcascade_frontalface_default.xml')
         self.entrenamiento = cv.face.EigenFaceRecognizer_create()
         self.entrenamiento.read('EntrenamientoEigenFaceRecognizer.xml')
         
@@ -34,7 +34,7 @@ class RecognitionUI:
         with open('registros_biometricos.csv', 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                datos[row['D:/xx/reconocimientofacial1/Data/']] = row
+                datos[row['./Data/']] = row
         return datos
 
     def setup_ui(self):

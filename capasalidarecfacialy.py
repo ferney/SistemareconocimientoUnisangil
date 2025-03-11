@@ -8,7 +8,7 @@ import csv
 from datetime import datetime
 
 # --- Configuraciones Globales ---
-DATA_RUTA = 'D:/xx/reconocimientofacial1/Data'
+DATA_RUTA = './Data'
 CSV_REGISTROS = 'registros_biometricos.csv'
 UMBRAL = 8000  # Umbral de similitud para reconocimiento
 
@@ -18,7 +18,7 @@ listaData = os.listdir(DATA_RUTA)
 # --- Cargar el modelo de reconocimiento facial y el clasificador ---
 recognizer = cv.face.EigenFaceRecognizer_create()
 recognizer.read('EntrenamientoEigenFaceRecognizer.xml')
-cascade = cv.CascadeClassifier('D:/xx/reconocimientofacial1/Ruidos/data/haarcascades/haarcascade_frontalface_default.xml')
+cascade = cv.CascadeClassifier('./Ruidos/data/haarcascades/haarcascade_frontalface_default.xml')
 
 # --- Función para buscar en el CSV el registro que coincida con el identificador ---
 def buscar_registro_por_id(identificador):
