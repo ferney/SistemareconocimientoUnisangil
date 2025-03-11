@@ -31,3 +31,6 @@ Sistema de reconocimiento facial desarrollado en Python como parte del semillero
    ```bash
    git clone https://github.com/tu-usuario/reconocimiento-facial-unisangil.git
    cd reconocimiento-facial-unisangil
+2. descargar Ruidos
+   https://drive.google.com/file/d/1FKTDjYDadO9r1B8Rp3OjNeh_msFo6n8i/view?usp=sharing
+3. Descomprimir la carpeta ruidos en la carpeta raiz del proyecto
