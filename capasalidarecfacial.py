@@ -13,7 +13,7 @@ import os #Interactúa con el sistema operativo (archivos, directorios, comandos
 import imutils #Simplifica operaciones comunes de manipulación de imágenes con OpenCV.
 
 # Define la ruta donde se almacenan las imágenes de los rostros.
-dataRuta = 'D:/xx/reconocimientofacial1/Data/'
+dataRuta = './Data/'
 # Lista los nombres de cada persona (subcarpetas) en la carpeta de datos.
 listaData = os.listdir(dataRuta)
 
@@ -22,7 +22,7 @@ entrenamientoEigenFaceRecognizer = cv.face.EigenFaceRecognizer_create()
 entrenamientoEigenFaceRecognizer.read('EntrenamientoEigenFaceRecognizer.xml')
 
 # Carga el clasificador de cascada para detectar rostros en la imagen.
-ruidos = cv.CascadeClassifier('D:/xx/reconocimientofacial1/Ruidos/data/haarcascades/haarcascade_frontalface_default.xml')
+ruidos = cv.CascadeClassifier('./Ruidos/data/haarcascades/haarcascade_frontalface_default.xml')
 
 # Inicia la captura de video (en este caso, desde un archivo 'desco.mp4').
 camara = cv.VideoCapture(0)

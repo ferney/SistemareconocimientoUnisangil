@@ -24,13 +24,20 @@ Sistema de reconocimiento facial desarrollado en Python como parte del semillero
 
 ### Requisitos
 - Python 3.6 o superior
+- Tkinter
 - Webcam funcional
 
 ### Pasos:
 1. Clonar repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/reconocimiento-facial-unisangil.git
-   cd reconocimiento-facial-unisangil
-2. descargar Ruidos
+
+   git clone https://github.com/ferney/SistemareconocimientoUnisangil.git
+
+   cd SistemareconocimientoUnisangil
+2. Instalar dependencias:
+   ```bash
+   pip install -r requirements.txt
+3. descargar Ruidos
    https://drive.google.com/file/d/1FKTDjYDadO9r1B8Rp3OjNeh_msFo6n8i/view?usp=sharing
 3. Descomprimir la carpeta ruidos en la carpeta raiz del proyecto
+

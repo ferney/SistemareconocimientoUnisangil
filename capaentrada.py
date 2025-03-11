@@ -16,7 +16,7 @@ import subprocess #Ejecuta comandos del sistema operativo y captura su salida.
 # Define el nombre del modelo (directorio para almacenar las imágenes).
 modelo = 'FotosWilliam'
 # Ruta base donde se almacenarán las imágenes.
-ruta1 = 'D:/xx/reconocimientofacial1/Data'
+ruta1 = './Data'
 # Ruta completa del directorio de almacenamiento, combinando ruta base y nombre del modelo.
 rutacompleta = ruta1 + '/' + modelo
 
@@ -28,7 +28,7 @@ if not os.path.exists(rutacompleta):
 camara = cv.VideoCapture(0)
 
 # Carga el clasificador de cascada para detectar rostros frontales.
-ruidos = cv.CascadeClassifier('D:/xx/reconocimientofacial1/Ruidos/data/haarcascades/haarcascade_frontalface_default.xml')
+ruidos = cv.CascadeClassifier('./Ruidos/data/haarcascades/haarcascade_frontalface_default.xml')
 
 # ID para las imágenes capturadas, empezando en 0.
 id = 0
