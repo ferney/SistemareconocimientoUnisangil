@@ -1,1 +1,3 @@
-nombre,documento,carrera,correo,teléfono,timestamp
+nombre,documento,carrera,correo,telefono,timestamp,identificador
+Javier Gomez,1005480266,ing sistemas,test@testmail.com,12132132123,2025-03-11 20:24:30,Javier_1005480266
+test2,test,test,test,test,2025-03-11 20:26:12,test2_test
